@@ -1,0 +1,19 @@
+{
+  "name": "friendscape",
+  "version": "1.0.0",
+  "description": "A web application that allows users to streamline their social life with easy friend management",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar815/FriendScape.git"
+  },
+  "author": "mar815",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mar815/FriendScape/issues"
+  },
+  "homepage": "https://github.com/mar815/FriendScape#readme"
+}
