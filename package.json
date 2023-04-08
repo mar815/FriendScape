@@ -4,7 +4,7 @@
   "description": "A web application that allows users to streamline their social life with easy friend management",
   "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/mar815/FriendScape/issues"
   },
-  "homepage": "https://github.com/mar815/FriendScape#readme"
+  "homepage": "https://github.com/mar815/FriendScape#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
