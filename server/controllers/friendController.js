@@ -76,6 +76,7 @@ const updateFriend = async (req, res) => {
       favoriteFoods,
       goals
     } = req.body;
+    
     friend.name = name;
     friend.location = location;
     friend.birthday = birthday;
